@@ -41,7 +41,8 @@ Oct 25 2016
 
 ### Thanks to the contributors: 
 X.C.  
-*contribute to append your name here*
+  
+*contribute to append your name here*  
 
 ### LICENSE:
 [BSD-2-Clause](https://opensource.org/licenses/BSD-2-Clause)
