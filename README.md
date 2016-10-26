@@ -1,12 +1,14 @@
 # Erdos-Renyi-Graph-Generator
 a matlab version of Erdős Rényi Random Graph generator.
 
-### Erdős–Rényi
-In graph theory, the [Erdős–Rényi model](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model) is either of two closely related models for generating random graphs.
+### [Erdős–Rényi model](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model)
+
+The orignal two definiations are:
 
 * In the *G(n,M)* model, a graph is chosen uniformly at random from the collection of all graphs which have *n* nodes and *M* edges. 
 * In the *G(n,p)* model, a graph is constructed by connecting nodes randomly.
 
+we used the second one, since the first one can be easily transformed into the second one by `p=2*M/n/(n-1)`
 ### Notes
 =========
 
@@ -21,24 +23,28 @@ approximately similar to the expected Erdos-Renyi Model.
 
 
 ### Description:
-        this function create Erdos-Renyi random Graph* 
+this function create Erdos-Renyi random Graph* 
 
-### Author: 
-        X.C.
 ### Date: 
-        Oct 25 2016
+Oct 25 2016
 
 ### Output Arguments:
-* G : generated random graph
-* n : graph size, number of vertexes, |V|
-* m : graph size, number of edges, |E|
+     G : generated random graph
+     n : graph size, number of vertexes, |V|
+     m : graph size, number of edges, |E|
 
 ### Input Arguments:
-* n : graph size, number of vertexes, |V|
+*        n : graph size, number of vertexes, |V|
 *        p : the probability p of the second definition of Erdos-Renyi model.
 *        seed: seed of the function. 
 *        format:
 *        opt:
- 
+
+### Thanks to contributors: 
+X.C.
+
+
+### LICENSE:
+BSD-2-Clause
 
 
