@@ -40,7 +40,7 @@ Oct 25 2016
 *        opt:
 
 ### Thanks to the contributors: 
-X.C.
+X.C.  
 *contribute to append your name here*
 
 ### LICENSE:
